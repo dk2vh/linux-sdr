@@ -1,0 +1,5 @@
+Hallo @do1igc
+heute habe ich versucht wenigstens das Alsa zu pipen. Aber weder bei Alsa, noch bei pulsaudio habe ich es geschafft. pavucontrol bringt auch nichts, weil da habe ich alle (ich hoffe doch!) mind. 2x durchgespielt, danach musste ich meinen Laptop einen Reset unterziehen, weil gar kein Ton mehr kam.
+Zum Ausprobieren hatte ich versucht mit audacity (da kann man alle möglichen Inputs und Outputs getrennt auswählen) wenigstens bei pulse als auch bei Alsa eine App überhaupt an das Audiosystem zu binden. Fehlanzeige. Ich kann weder sehen, ob der Output rausgeht oder ob es daran liegt, dass kein Input rein kommt.
+Zum Thema direktes piping über die Command-Line von bash habe ich gar nichts finden können.
+Wie weit bist Du gekommen?
