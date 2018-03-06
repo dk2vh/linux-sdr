@@ -1,0 +1,32 @@
+Hallo,
+hier noch ein Hinweis: Bei der Installation von "gqrx" soll man folgendermaßen vorgehen:
+
+$ sudo apt purge gqrx-sdr gnuradio pulse*
+$ sudo apt autoremove
+$ sudo apt install pulse*
+$ sudo apt install gnuradio gqrx
+$ volk_config
+$ volk_test
+
+Angeblich soll danach das gqrx normal starten und nach dem angeschlossenen SDR fragen....
+angeblich! Bei mir nicht.
+
+gqrx bricht mit ...
+
+linux; GNU C++ version 6.2.0 20161010; Boost_106100; UHD_003.009.005-0-unknown
+
+libEGL warning: DRI2: failed to authenticate
+
+** (gqrx:9231): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Controlport disabled
+No user supplied config file. Using "default.conf"
+gr-osmosdr 0.1.4 (0.1.4) gnuradio 3.7.10
+built-in source types: file osmosdr fcd rtl rtl_tcp uhd miri hackrf bladerf rfspace airspy soapy redpitaya 
+FM demod gain: 1.52789
+IQ DCR alpha: 1.04166e-05
+Using audio backend: auto
+BookmarksFile is /home/pi/.config/gqrx/bookmarks.csv
+*** Error in `gqrx': corrupted double-linked list: 0x012bfde8 ***
+Abgebrochen
+
+.... ab
